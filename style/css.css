@@ -1,7 +1,7 @@
-
 .wrapper {
-  animation: scroll 70s linear infinite;
-  background: url("https://img.freepik.com/vector-premium/patron-transparente-vector-alquimia-oro-simbolos-astrologia-dibujados-mano-lineas_265182-209.jpg?w=1380"), #111111;
+  animation: scroll 140s linear infinite;
+  background: url("https://img.freepik.com/vector-premium/patron-transparente-vector-alquimia-oro-simbolos-astrologia-dibujados-mano-lineas_265182-209.jpg?w=1380"),
+    #111111;
   background-size: 100%;
   color: #eee;
   height: 100vh;
@@ -11,11 +11,10 @@
   perspective-origin: 50% 50%;
   display: flexbox;
   text-align: center;
-
 }
 @keyframes scroll {
-   100%{
-    background-position:0px -3000px;
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
