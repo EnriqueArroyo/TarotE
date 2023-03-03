@@ -34,12 +34,13 @@ body {
   align-content: center;
   margin: 2% 5% 5%;
   font-family: "Dancing Script", cursive;
-  color: #fced9c;
+  color: #fff4b5;
 }
 #introduccion #titulo {
   font-size: 4rem;
 }
 #introduccion #eslogan {
+  color: #fff6c6;
   font-size: 2.5rem;
 }
 
