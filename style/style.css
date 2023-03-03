@@ -26,7 +26,7 @@ body {
 }
 
 #introduccion {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -45,13 +45,19 @@ body {
 }
 
 .wrap {
-  margin: 0% 10% 0% 10%;
+  z-index: -100000000000000000000000000000000000;
+  margin: 0% 10% 10% 10%;
   padding: 0px;
   background-color: rgba(75, 16, 109, 0.103);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(4px);
   height: 100%;
-  box-shadow: 0 0 555px #2d0442;
+  box-shadow: 0 -80px 555px #2d0442;
+}
+
+.footer {
+  background-color: #fff2f2 !important;
+  z-index: 10000000000000000000000000000000000000000 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
