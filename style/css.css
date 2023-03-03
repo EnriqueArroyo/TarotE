@@ -1,0 +1,26 @@
+
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url("https://img.freepik.com/vector-premium/patron-transparente-vector-alquimia-oro-simbolos-astrologia-dibujados-mano-lineas_265182-209.jpg?w=1380"), #111111;
+  background-size: 100%;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  display: flexbox;
+  text-align: center;
+
+}
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
