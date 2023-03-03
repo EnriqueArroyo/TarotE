@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora&display=swap");
-nav{
-z-index: 99999;
+nav {
+  z-index: 99999;
 }
 
 html,
@@ -32,27 +32,25 @@ body {
   align-items: center;
   align-content: center;
   margin: 2% 5% 5%;
-}
 
-#titulo,
-#eslogan {
   font-family: "Dancing Script", cursive;
-}
-
-#titulo {
-  font-size: 10em;
+  color: #fced9c;
+  #titulo {
+    font-size: 4rem;
+  }
+  #eslogan {
+    font-size: 2.5rem;
+  }
 }
 
 .wrap {
   margin: 0% 10% 0% 10%;
+  padding: 0px;
   background-color: rgba(75, 16, 109, 0.103);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(4px);
   height: 100%;
-  box-shadow: 0 0 45px #3e035a;
-} 
-
-
-
+  box-shadow: 0 0 25px #3e035a;
+}
 
 /*# sourceMappingURL=style.css.map */

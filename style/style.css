@@ -33,24 +33,24 @@ body {
   align-items: center;
   align-content: center;
   margin: 2% 5% 5%;
-}
-
-#titulo,
-#eslogan {
   font-family: "Dancing Script", cursive;
+  color: #fced9c;
 }
-
-#titulo {
-  font-size: 10em;
+#introduccion #titulo {
+  font-size: 4rem;
+}
+#introduccion #eslogan {
+  font-size: 2.5rem;
 }
 
 .wrap {
   margin: 0% 10% 0% 10%;
+  padding: 0px;
   background-color: rgba(75, 16, 109, 0.103);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(4px);
   height: 100%;
-  box-shadow: 0 0 45px #3e035a;
+  box-shadow: 0 0 25px #3e035a;
 }
 
 /*# sourceMappingURL=style.css.map */
