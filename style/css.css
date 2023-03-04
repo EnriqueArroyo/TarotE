@@ -1,6 +1,6 @@
 .wrapper {
   animation: scroll 140s linear infinite;
-  background: url("https://img.freepik.com/vector-premium/patron-transparente-vector-alquimia-oro-simbolos-astrologia-dibujados-mano-lineas_265182-209.jpg?w=1380"),
+  background: url("https://w0.peakpx.com/wallpaper/547/943/HD-wallpaper-galaxy-black-mandala-purple-rose-space.jpg"),
     #111111;
   background-size: 100%;
   color: #eee;
@@ -24,3 +24,22 @@
     animation: scroll 800s linear infinite;
   }
 }
+
+
+/* 
+
+.wrapper {
+  animation: scroll 140s linear infinite;
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/39/1004/desktop-wallpaper-dynamic-space-backgrounds-by-dinvstudio-space-background.jpg"),
+    #111111;
+  background-size: 100%;
+  color: #eee;
+  height: 100%;
+  min-width: 360px;
+  width: 100%;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  display: flexbox;
+  text-align: center;
+  
+} */

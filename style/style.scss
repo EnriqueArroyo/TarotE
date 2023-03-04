@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: center;
   img {
-    width: 100%;
+    border-radius: 12px;
+    width: 75vw;
     min-width: 280px;
   }
 }
@@ -35,6 +36,12 @@ body {
 
   font-family: "Dancing Script", cursive;
   color: #fff4b5;
+
+  img{
+    border-radius: 100%;
+    width: 20%;
+    min-width: 64px;
+  }
   #titulo {
     font-size: 4rem;
   }
