@@ -50,10 +50,12 @@ main {
       margin: 2% 3% 0% 3%;
 
       font-family: "Dancing Script", cursive;
-      color: #fff4b5;
+      
 
       #titulo {
-        font-size: clamp(1rem, 8vw, 6rem);
+        font-size: clamp(1rem, 7vw, 6rem);
+        color: #fff4b5;
+        text-shadow: 0 0 10px #ffffff;
       }
       img {
         border-radius: 100%;
@@ -65,10 +67,19 @@ main {
         font-size: clamp(0.3rem, 2vw, 2rem);
       }
       #eslogan {
-
-        color: #fff6c6;
-        font-size: clamp(1rem, 5vw, 3rem);
+        margin-top: 2%;
+        text-shadow: 0 0 5px #ffffff;
+        font-size: clamp(0.8rem, 4vw, 3rem);
       }
+    }
+    #servicios{
+      padding: 5%;
+      text-align: start;
+      font-family: 'Lora', serif;
+    h1{
+
+    }
+
     }
   }
 }

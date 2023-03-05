@@ -50,10 +50,11 @@ main .wrap #introduccion {
   align-content: center;
   margin: 2% 3% 0% 3%;
   font-family: "Dancing Script", cursive;
-  color: #fff4b5;
 }
 main .wrap #introduccion #titulo {
-  font-size: clamp(1rem, 8vw, 6rem);
+  font-size: clamp(1rem, 7vw, 6rem);
+  color: #fff4b5;
+  text-shadow: 0 0 10px #ffffff;
 }
 main .wrap #introduccion img {
   border-radius: 100%;
@@ -65,10 +66,15 @@ main .wrap #introduccion #subtitulo {
   font-size: clamp(0.3rem, 2vw, 2rem);
 }
 main .wrap #introduccion #eslogan {
-  color: #fff6c6;
-  font-size: clamp(1rem, 5vw, 3rem);
+  margin-top: 2%;
+  text-shadow: 0 0 5px #ffffff;
+  font-size: clamp(0.8rem, 4vw, 3rem);
 }
-
+main .wrap #servicios {
+  padding: 5%;
+  text-align: start;
+  font-family: "Lora", serif;
+}
 .footer {
   display: flexbox !important;
   background-color: #fff2f2 !important;
