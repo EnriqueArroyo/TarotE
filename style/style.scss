@@ -85,6 +85,10 @@ main {
       .card {
         background-color: #00000059;
         margin-top: 20px ;
+        &:hover {
+          
+          transform: scale(1.05);
+        }
       }
     }
 

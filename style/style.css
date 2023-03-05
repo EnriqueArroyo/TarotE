@@ -87,6 +87,9 @@ main .wrap #servicios .card {
   background-color: rgba(0, 0, 0, 0.3490196078);
   margin-top: 20px;
 }
+main .wrap #servicios .card:hover {
+  transform: scale(1.05);
+}
 
 .footer {
   display: flexbox !important;
