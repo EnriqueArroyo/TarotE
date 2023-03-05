@@ -38,6 +38,7 @@ main .wrap #banner {
 }
 main .wrap #banner img {
   border-radius: 12px;
+  max-height: 400px;
   width: 75vw;
   min-width: 280px;
 }
