@@ -52,17 +52,17 @@ main {
       font-family: "Dancing Script", cursive;
       color: #fff4b5;
 
-      img {
-        border-radius: 100%;
-        width: 12%;
-        min-width: 64px;
-      }
       #titulo {
         font-size: clamp(1rem, 8vw, 8rem);
       }
+      img {
+        border-radius: 100%;
+        width: 10%;
+        min-width: 64px;
+      }
       #subtitulo {
         font-family: 'Lora', serif;
-        font-size: clamp(0.5rem, 3vw, 3rem);
+        font-size: clamp(0.3rem, 2vw, 2rem);
       }
       #eslogan {
 
