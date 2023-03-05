@@ -79,3 +79,12 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+
+@media (max-width: 767px) {
+  #servicios .card {
+    margin-top: 20px;
+  }
+}
+
+

@@ -82,11 +82,13 @@ main {
       padding: 5%;
       text-align: start;
       font-family: 'Lora', serif;
-    h1{
-
+      .card {
+        background-color: #00000059;
+        margin-top: 20px ;
+      }
     }
 
-    }
+    
   }
 }
 
