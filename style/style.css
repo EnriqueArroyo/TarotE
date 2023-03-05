@@ -5,10 +5,12 @@
 }
 
 html,
-body, main, h1, h2 {
+body,
+main,
+h1,
+h2 {
   padding: 0px;
   margin: 0px;
-  height: 100%;
 }
 
 body {
@@ -17,17 +19,25 @@ body {
   justify-content: center;
 }
 
-#banner {
+main .wrap {
+  margin: 0% 5% 0% 5%;
+  padding: 0px;
+  background-color: rgba(75, 16, 109, 0.103);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(4px);
+  height: 100%;
+  box-shadow: 0 -80px 250px #510a75;
+}
+main .wrap #banner {
   display: flex;
   justify-content: center;
 }
-#banner img {
+main .wrap #banner img {
   border-radius: 12px;
   width: 75vw;
   min-width: 280px;
 }
-
-#introduccion {
+main .wrap #introduccion {
   display: flexbox;
   flex-direction: column;
   text-align: center;
@@ -38,30 +48,21 @@ body {
   font-family: "Dancing Script", cursive;
   color: #fff4b5;
 }
-#introduccion img {
+main .wrap #introduccion img {
   border-radius: 100%;
   width: 12%;
   min-width: 64px;
 }
-#introduccion #titulo {
+main .wrap #introduccion #titulo {
   font-size: clamp(1rem, 8vw, 8rem);
 }
-#introduccion #eslogan {
+main .wrap #introduccion #eslogan {
   color: #fff6c6;
   font-size: clamp(1rem, 5vw, 5rem);
 }
 
-.wrap {
-  margin: 0% 5% 0% 5%;
-  padding: 0px;
-  background-color: rgba(75, 16, 109, 0.103);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(4px);
-  height: 100%;
-  box-shadow: 0 -80px 250px #510a75;
-}
-
 .footer {
+  display: flexbox !important;
   background-color: #fff2f2 !important;
 }
 
