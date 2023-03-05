@@ -38,7 +38,7 @@ main .wrap #banner {
 }
 main .wrap #banner img {
   border-radius: 12px;
-  width: 75vw;
+  width: 60vw;
   min-width: 280px;
 }
 main .wrap #introduccion {
