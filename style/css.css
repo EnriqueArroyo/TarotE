@@ -43,3 +43,39 @@
   text-align: center;
   
 } */
+
+
+/* SCROLL */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #321240;
+  border: 0px none #ffffff;
+  border-radius: 69px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #361b46;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #361b46;
+}
+::-webkit-scrollbar-track {
+  background: #4f4f4f;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #4f4f4f;
+}
+::-webkit-scrollbar-track:active {
+  background: #525252;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

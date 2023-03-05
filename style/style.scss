@@ -12,18 +12,15 @@ h2 {
   margin: 0px;
   
 }
-html {
-//  espacio
-}
 body {
   display: flexbox;
   align-items: center;
   justify-content: center;
 }
+nav{
+  font-family: 'Lora', serif;
+}
 main {
-  
-
-
   .wrap {
     margin: 0% 5% 0% 5%;
     padding: 0px;
@@ -42,7 +39,6 @@ main {
         min-width: 280px;
       }
     }
-
     #introduccion {
       display: flexbox;
       flex-direction: column;
@@ -63,7 +59,12 @@ main {
       #titulo {
         font-size: clamp(1rem, 8vw, 8rem);
       }
+      #subtitulo {
+        font-family: 'Lora', serif;
+        font-size: clamp(0.5rem, 3vw, 3rem);
+      }
       #eslogan {
+        
         color: #fff6c6;
         font-size: clamp(1rem, 5vw, 5rem);
       }
