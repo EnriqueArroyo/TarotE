@@ -82,14 +82,32 @@ main {
       padding: 5%;
       text-align: start;
       font-family: 'Lora', serif;
+      h5{
+        color: #fff4b5;
+      }
       .card {
         background-color: #00000059;
         margin-top: 20px ;
         &:hover {
-          
+          box-shadow: 0 0 30px #fff4b57a;
           transform: scale(1.05);
+          transition: transform 0.2s ease-in-out;
         }
       }
+      .btn{
+
+        color: black;
+        border-color: #fff4b5;
+        background-color: #fff4b5;
+        &:hover {
+          box-shadow: 0 0 10px #fff4b57a;
+          border-color: #fff8cd;
+          background-color: #fff8cd;
+          transform: scale(1.02);
+          
+        }
+      }
+     
     }
 
     

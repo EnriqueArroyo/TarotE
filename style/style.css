@@ -83,12 +83,28 @@ main .wrap #servicios {
   text-align: start;
   font-family: "Lora", serif;
 }
+main .wrap #servicios h5 {
+  color: #fff4b5;
+}
 main .wrap #servicios .card {
   background-color: rgba(0, 0, 0, 0.3490196078);
   margin-top: 20px;
 }
 main .wrap #servicios .card:hover {
+  box-shadow: 0 0 30px rgba(255, 244, 181, 0.4784313725);
   transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+main .wrap #servicios .btn {
+  color: black;
+  border-color: #fff4b5;
+  background-color: #fff4b5;
+}
+main .wrap #servicios .btn:hover {
+  box-shadow: 0 0 10px rgba(255, 244, 181, 0.4784313725);
+  border-color: #fff8cd;
+  background-color: #fff8cd;
+  transform: scale(1.02);
 }
 
 .footer {
