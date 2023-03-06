@@ -91,6 +91,7 @@ main .wrap #servicios h5 {
   color: #fff4b5;
 }
 main .wrap #servicios .card {
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.3490196078);
   margin-top: 20px;
 }
@@ -99,12 +100,21 @@ main .wrap #servicios .card:hover {
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
 }
-main .wrap #servicios .btn {
+main .wrap #servicios .card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+main .wrap #servicios .card-body .inf {
+  margin-top: 2%;
+}
+main .wrap #servicios .card-body .inf .btn {
   color: black;
   border-color: #fff4b5;
   background-color: #fff4b5;
 }
-main .wrap #servicios .btn:hover {
+main .wrap #servicios .card-body .inf .btn:hover {
   box-shadow: 0 0 10px rgba(255, 244, 181, 0.4784313725);
   border-color: #fff8cd;
   background-color: #fff8cd;

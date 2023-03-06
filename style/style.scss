@@ -10,12 +10,11 @@ h1,
 h2 {
   padding: 0px;
   margin: 0px;
-  
 }
-h1{
+h1 {
   font-size: clamp(1.2rem, 3vw, 2.5rem);
 }
-p{
+p {
   font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 body {
@@ -28,8 +27,8 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-nav{
-  font-family: 'Lora', serif;
+nav {
+  font-family: "Lora", serif;
 }
 main {
   .wrap {
@@ -46,7 +45,7 @@ main {
       justify-content: center;
       img {
         border-radius: 12px;
-        
+
         width: 60vw;
         min-width: 280px;
       }
@@ -61,7 +60,6 @@ main {
       margin: 2% 3% 0% 3%;
 
       font-family: "Dancing Script", cursive;
-      
 
       #titulo {
         font-size: clamp(1rem, 7vw, 6rem);
@@ -74,7 +72,7 @@ main {
         min-width: 64px;
       }
       #subtitulo {
-        font-family: 'Lora', serif;
+        font-family: "Lora", serif;
         font-size: clamp(0.3rem, 2vw, 2rem);
       }
       #eslogan {
@@ -83,39 +81,45 @@ main {
         font-size: clamp(0.8rem, 4vw, 3rem);
       }
     }
-    #servicios{
+    #servicios {
       padding: 5%;
       text-align: start;
-      font-family: 'Lora', serif;
-      h5{
+      font-family: "Lora", serif;
+      h5 {
         color: #fff4b5;
       }
       .card {
+        height: 100%;
         background-color: #00000059;
-        margin-top: 20px ;
+        margin-top: 20px;
         &:hover {
           box-shadow: 0 0 30px #fff4b57a;
           transform: scale(1.05);
           transition: transform 0.2s ease-in-out;
         }
       }
-      .btn{
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        .inf {
+          margin-top: 2%;
 
-        color: black;
-        border-color: #fff4b5;
-        background-color: #fff4b5;
-        &:hover {
-          box-shadow: 0 0 10px #fff4b57a;
-          border-color: #fff8cd;
-          background-color: #fff8cd;
-          transform: scale(1.02);
-          
+          .btn {
+            color: black;
+            border-color: #fff4b5;
+            background-color: #fff4b5;
+            &:hover {
+              box-shadow: 0 0 10px #fff4b57a;
+              border-color: #fff8cd;
+              background-color: #fff8cd;
+              transform: scale(1.02);
+            }
+          }
         }
       }
-     
     }
-
-    
   }
 }
 
