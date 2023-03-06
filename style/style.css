@@ -161,7 +161,6 @@ main .wrap #faqs p a {
   text-decoration: none;
 }
 main .wrap #faqs .respuesta {
-  text-align: justify;
   padding: 4px;
   padding-left: 20px;
   padding-right: 20px;
