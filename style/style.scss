@@ -85,8 +85,8 @@ main {
         font-size: clamp(0.8rem, 4vw, 3rem);
       }
 
-      #explicacion,#sobre-mi {
-      
+      #explicacion,
+      #sobre-mi {
         margin: 1%;
         margin-top: 4%;
 
@@ -94,7 +94,6 @@ main {
           color: #fff4b5;
         }
         p {
-          
           margin-top: 1%;
           font-family: "Lora", serif;
         }
@@ -105,6 +104,10 @@ main {
       padding: 5%;
       text-align: start;
       font-family: "Lora", serif;
+      h1 {
+        font-family: "Dancing Script", cursive;
+        color: #fff4b5;
+      }
       h5 {
         color: #fff4b5;
       }
@@ -140,12 +143,53 @@ main {
         }
       }
     }
+    #faqs {
+      padding: 5%;
+      text-align: start;
+      font-family: "Lora", serif;
+      h1 {
+        margin-bottom: 1%;
+        font-family: "Dancing Script", cursive;
+        color: #fff4b5;
+      }
+      p {
+        margin-bottom: 20px;
+        font-size: clamp(1rem, 1.6vw, 1.6rem);
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+      .respuesta {
+        text-align: justify;
+        padding: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: clamp(1rem, 1.5vw, 1.5rem);
+        border: 1px solid #fff4b5;
+        border-radius: 12px;
+        background-color: #0c011177;
+      }
+    }
   }
 }
 
-.footer {
+footer {
   display: flexbox !important;
   background-color: #fff2f2 !important;
+
+  img {
+    height: 3vw;
+    min-height: 32px;
+    filter: invert(1);
+    border-radius: 100px;
+    &:hover {
+      filter: invert(0);
+      box-shadow: 0 0 5px #fff4b5;
+      transform: scale(1.05);
+      transition: transformrgba(247, 247, 247, 0.478)e-in-out;
+    }
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
