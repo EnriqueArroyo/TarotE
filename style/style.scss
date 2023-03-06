@@ -29,6 +29,10 @@ body {
 }
 nav {
   font-family: "Lora", serif;
+  .container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 main {
   .wrap {
@@ -80,7 +84,23 @@ main {
         text-shadow: 0 0 5px #ffffff;
         font-size: clamp(0.8rem, 4vw, 3rem);
       }
+
+      #explicacion,#sobre-mi {
+      
+        margin: 1%;
+        margin-top: 4%;
+
+        h1 {
+          color: #fff4b5;
+        }
+        p {
+          
+          margin-top: 1%;
+          font-family: "Lora", serif;
+        }
+      }
     }
+
     #servicios {
       padding: 5%;
       text-align: start;

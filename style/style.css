@@ -34,6 +34,10 @@ body {
 nav {
   font-family: "Lora", serif;
 }
+nav .container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 main .wrap {
   margin: 0% 5% 0% 5%;
@@ -81,6 +85,17 @@ main .wrap #introduccion #eslogan {
   margin-top: 2%;
   text-shadow: 0 0 5px #ffffff;
   font-size: clamp(0.8rem, 4vw, 3rem);
+}
+main .wrap #introduccion #explicacion, main .wrap #introduccion #sobre-mi {
+  margin: 1%;
+  margin-top: 4%;
+}
+main .wrap #introduccion #explicacion h1, main .wrap #introduccion #sobre-mi h1 {
+  color: #fff4b5;
+}
+main .wrap #introduccion #explicacion p, main .wrap #introduccion #sobre-mi p {
+  margin-top: 1%;
+  font-family: "Lora", serif;
 }
 main .wrap #servicios {
   padding: 5%;
